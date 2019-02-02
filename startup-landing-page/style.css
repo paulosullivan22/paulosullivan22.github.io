@@ -1,0 +1,50 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: monospace;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+footer {
+  height: 50px;
+  background-color: #CCCCCC;
+  display: block;
+}
+
+.footer-content {
+  padding-left: 100px;
+  padding-top: 15px;
+}
+
+.hero-header {
+  background-image: URL("motorbikeheroheader.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 650px;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.hero-header-content {
+  color: white;
+  width: 600px;
+  display: inline;
+}
+
+.module-two-content {
+  display: flex;
+  margin: 100px 100px;
+}
+
+.module-two-left-container, .module-two-right-container {
+  width: 500px;
+  margin: auto;
+  overflow: hidden;
+}
